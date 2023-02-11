@@ -1,0 +1,31 @@
+{
+  "name": "caps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "prettier --check vendor/ driver/ && eslint vendor/ driver/",
+    "test": "jest",
+    "start": "node hub.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Apokoala/CAPS.git"
+  },
+  "author": "MFG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Apokoala/CAPS/issues"
+  },
+  "homepage": "https://github.com/Apokoala/CAPS#readme",
+  "dependencies": {
+    "@types/node": "^18.11.18",
+    "@types/socket.io-client": "^3.0.0",
+    "chance": "^1.1.9",
+    "eslint": "^8.32.0",
+    "jest": "^29.3.1",
+    "prettier": "^2.8.3",
+    "socket.io": "^4.6.0",
+    "socket.io-client": "^4.6.0"
+  }
+}
